@@ -1,0 +1,9 @@
+{
+  "name": "epode",
+  "description": "Sasha Baych's agent skills for working with coding agents.",
+  "author": {
+    "name": "Sasha Baych"
+  },
+  "repository": "https://github.com/SashaBaych/epode-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "epode-skills",
+  "owner": {
+    "name": "Sasha Baych"
+  },
+  "description": "Sasha Baych's agent skills for Claude and Codex.",
+  "plugins": [
+    {
+      "name": "epode",
+      "source": "./plugins/epode",
+      "description": "Sasha Baych's agent skills for working with coding agents."
+    }
+  ]
+}
