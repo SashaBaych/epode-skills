@@ -9,8 +9,11 @@ Agent skills by Sasha Baych, for Claude and Codex.
 | Skill | What it does | Call it |
 |---|---|---|
 | `scaffold` | Designs a feature or app as a freeform scaffold — files, module names, interfaces and intent comments, no implementation — for you to review before another agent fills it in. | Claude: `/epode:scaffold <what to build>`<br>Codex: `$epode:scaffold <what to build>` |
+| `ste` | Answers your next question so it lands the first time: a little context, [ASD-STE100 Simplified Technical English](https://www.asd-ste100.org/) (the controlled English of aerospace maintenance manuals), and the project's own terms from `GLOSSARY.md` or `CONTEXT.md`. | Claude: `/epode:ste <your question>`<br>Codex: `$epode:ste <your question>` |
 
-`scaffold` never starts on its own; you call it.
+Neither skill starts on its own; you call it.
+
+`ste` is inspired by Matt Pocock's [`/wait-what`](https://www.aihero.dev/skills-wait-what). `/wait-what` asks the agent to re-explain what it just told you; `ste` asks it to answer the question you are about to ask so you understand it the first time.
 
 ## Install
 
