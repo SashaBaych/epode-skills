@@ -1,5 +1,6 @@
 {
   "name": "epode",
+  "version": "0.1.0",
   "description": "Sasha Baych's agent skills for working with coding agents.",
   "author": {
     "name": "Sasha Baych"

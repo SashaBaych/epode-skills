@@ -23,7 +23,7 @@ All three routes install from this one repository.
 
 1. Open **Customize → Plugins → Add → Add marketplace** and enter `SashaBaych/epode-skills`.
 2. Add the **epode** plugin.
-3. Turn on **Sync automatically** to receive updates as they are pushed; **Check for updates** pulls them by hand.
+3. Turn on **Sync automatically** to receive each new release; **Check for updates** pulls it by hand.
 
 A plugin added here is saved to your account, so it also loads in Cowork and in Claude Code sessions signed in with the same account.
 
@@ -34,7 +34,7 @@ A plugin added here is saved to your account, so it also loads in Cowork and in 
 /plugin install epode@epode-skills
 ```
 
-To update, run `/plugin marketplace update epode-skills`, or turn on auto-update for the marketplace under `/plugin` → **Marketplaces**.
+Auto-update is off by default for marketplaces outside Anthropic's own. To receive each new release automatically, open `/plugin` → **Marketplaces** → **epode-skills** → **Enable auto-update**. To update by hand, run `claude plugin update epode@epode-skills`.
 
 ### Codex
 
@@ -44,6 +44,10 @@ codex plugin add epode@epode-skills
 ```
 
 To update, run `codex plugin marketplace upgrade epode-skills`.
+
+## Releases
+
+Each release raises the plugin's version, and an installed copy updates only when that version changes, so you get released changes, not every commit. Each release is listed on the [Releases](https://github.com/SashaBaych/epode-skills/releases) page and in [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
