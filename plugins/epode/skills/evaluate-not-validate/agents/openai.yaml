@@ -1,0 +1,6 @@
+interface:
+  display_name: "Evaluate, Don't Validate"
+  short_description: "Honest critique of an idea, not validation"
+
+policy:
+  allow_implicit_invocation: false
