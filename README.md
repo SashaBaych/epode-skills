@@ -11,6 +11,7 @@ Agent skills by Sasha Baych, for Claude and Codex.
 | `scaffold` | Designs a feature or app as a freeform scaffold — files, module names, interfaces and intent comments, no implementation — for you to review before another agent fills it in. | Claude: `/epode:scaffold <what to build>`<br>Codex: `$epode:scaffold <what to build>` |
 | `ste` | Answers your next question so it lands the first time: a little context, [ASD-STE100 Simplified Technical English](https://www.asd-ste100.org/) (the controlled English of aerospace maintenance manuals), and the project's own terms from `GLOSSARY.md` or `CONTEXT.md`. | Claude: `/epode:ste <your question>`<br>Codex: `$epode:ste <your question>` |
 | `evaluate-not-validate` | Judges your idea or proposal on its merits instead of agreeing with it: names its flaws, caveats and better alternatives directly, and praises only what earns it. | Claude: `/epode:evaluate-not-validate <your idea>`<br>Codex: `$epode:evaluate-not-validate <your idea>` |
+| `real-fix` | Rethinks a proposed solution, or a problem nobody has solved yet, the way an engineer would: names the job, surveys the whole real system, walks it through as the user, checks for four wrong turns (symptom fix, judging by appearance, hidden limit, Rube Goldberg machine), and returns a short design note before any code is written. | Claude: `/epode:real-fix <the proposal or problem>`<br>Codex: `$epode:real-fix <the proposal or problem>` |
 
 No skill starts on its own; you call it.
 
