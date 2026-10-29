@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/SashaBaych/epode-skills/compare/v0.2.0...v0.3.0) (2026-10-29)
+
+
+### Features
+
+* add real-fix, a skill that rethinks a proposed solution the way an engineer would ([31f1866](https://github.com/SashaBaych/epode-skills/commit/31f18663fdaa4656bde74c1059066d7e0ca70bdb))
+
 ## [0.2.0](https://github.com/SashaBaych/epode-skills/compare/v0.1.0...v0.2.0) (2026-10-26)
 
 
